@@ -165,9 +165,13 @@ font-size: larger;
 }
 .location .container .row .gps a {
   font-size: 35px;
-  color: var(--secondary-color);
-  color:  #1f50f1;
-}
+    color: var(--secondary-color);
+ }
+
+ .location .container .row .gps a i {
+  font-size: 30px;
+    color:  #000;
+ }
 
 .location .container  fieldset:hover{
 
