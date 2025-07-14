@@ -146,27 +146,33 @@ body {
   direction: rtl;
 
   margin-top: 20px;
+  text-align: center;
    
 }
 
 .location .container .row p {
   font-size: 25px;
-}
+      line-height: 1.3;
+
+ }
 
 .location .container .row span {
   font-size: 30px;
+ 
   color:  #fff;
+ 
 }
 
 .location .container .row   a{
 font-size: larger;
  color: #1f50f1;
+ 
 
 }
 .location .container .row .gps a {
   font-size: 35px;
     color: var(--secondary-color);
- }
+  }
 
  .location .container .row .gps a i {
   font-size: 30px;
@@ -206,15 +212,22 @@ font-size: larger;
 
   .location .container .row p {
     font-size: 18px;
-  }
+          line-height: 1.6;
+
+   }
 
   .location .container .row span {
     font-size: 25px;
     color:  #fff;
-  }
-
+   }
   .location .container .row .gps a {
-    font-size: 35px;
+    font-size: 25px;
     color: var(--secondary-color);
+    
   }
+  .location .container .row .gps a i {
+    font-size: 20px;
+     
+  }
+  
 }
